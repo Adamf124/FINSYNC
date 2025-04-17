@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['var(--font-jakarta)', 'sans-serif'],
+        ui: ['var(--font-inter)', 'sans-serif'],
+      },
       gridTemplateColumns: {
         '13': 'repeat(13, minmax(0, 1fr))',
       },
@@ -17,6 +21,12 @@ const config: Config = {
           500: '#0070F3',
           600: '#2F6FEB',
         },
+      },
+      fontSize: {
+        hero: ['3.75rem', { lineHeight: '1.1' }], // 60px
+        headline: ['2rem', { lineHeight: '1.2' }],
+        subheadline: ['1.25rem', { lineHeight: '1.6' }],
+        button: ['1rem', { letterSpacing: '0.05em', fontWeight: '600' }],
       },
     },
     keyframes: {
