@@ -34,13 +34,13 @@ export default function Page() {
             width={1200}
             height={920}
             className="hidden md:block"
-            alt="Screenshots of the dashboard project showing desktop version"
+            alt="Desktop mockup"
           />
           <Image
             src="/finhero-mobile.png"
             width={560}
             height={620}
-            className=""
+            className="block md:hidden"
             alt="Screenshots of the dashboard project showing mobile version"
           />
         </div>
