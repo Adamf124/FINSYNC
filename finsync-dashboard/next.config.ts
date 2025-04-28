@@ -1,10 +1,6 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-
-  // NEW location
-  serverExternalPackages: ['bcrypt'],};
+  reactStrictMode: true,};
 
 export default nextConfig;
