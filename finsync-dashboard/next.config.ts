@@ -1,9 +1,10 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  experimental: {
-    // keep bcrypt’s native file in the server build
-    serverComponentsExternalPackages: ['bcrypt'],
-  },};
+  reactStrictMode: true,
+  swcMinify: true,
+
+  // NEW location
+  serverExternalPackages: ['bcrypt'],};
 
 export default nextConfig;
